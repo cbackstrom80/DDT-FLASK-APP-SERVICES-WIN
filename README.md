@@ -31,7 +31,8 @@ from opentelemetry.instrumentation.flask import FlaskInstrumentor
 from opentelemetry import trace
 from flask import Flask
 import requests
-from waitress import serve``` 
+from waitress import serve
+``` 
     
 
 # Create app context  and use OTEL to instrument
