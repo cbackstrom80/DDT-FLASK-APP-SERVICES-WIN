@@ -25,7 +25,7 @@ This "Assumes":
 
 In the spirit of getting it running, I imported the splunk-otel library to use the start_tracing() class. However I found it easier to use the otel libs for manual instrumentation and static spans.  Because the App Service handler was not running the app with app.run(), I used a WSGI (Waitress) to "serve"  the app context/module.
 
-'''
+'''python
 from splunk_otel.tracing import start_tracing
 from opentelemetry.instrumentation.flask import FlaskInstrumentor
 from opentelemetry import trace
