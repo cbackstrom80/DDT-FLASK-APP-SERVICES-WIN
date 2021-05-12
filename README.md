@@ -37,7 +37,7 @@ from waitress import serve
 
 # Create app context  and use OTEL to instrument
 
-##### I Reccomend checking out splunk-otel python libs and find start_tracing()
+##### I Reccomend checking out splunk-otel python libs and find start_tracing()  ( https://github.com/signalfx/splunk-otel-python/blob/main/splunk_otel/tracing.py)
 
 
 
