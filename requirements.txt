@@ -1,0 +1,5 @@
+Flask>=1.0,<=1.1.2
+splunk-opentelemetry
+opentelemetry-instrumentation-flask
+requests
+waitress

@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/c57a572c-43b6-4125-92aa-93750b0fce81/resourceGroups/DefaultResourceGroup-WUS/providers/Microsoft.Web/sites/SBUX-WIN-FLASK-OTEL",
+    "appService.deploySubpath": "."
+}
