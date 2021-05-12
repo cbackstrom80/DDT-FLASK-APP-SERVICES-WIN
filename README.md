@@ -41,7 +41,7 @@ In the spirit of getting it running, I imported the splunk-otel library to use t
 
 
 
-'''python
+```python
 start_tracing(service_name='digitaldrivethru')
 app = Flask(__name__)
 FlaskInstrumentor().instrument_app(app)
@@ -60,7 +60,7 @@ def hello_world():
 
 
 
-serve(app, host='0.0.0.0', port=os.environ["SERVER_PORT"])'''
+serve(app, host='0.0.0.0', port=os.environ["SERVER_PORT"])```
 
 
 
