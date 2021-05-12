@@ -36,9 +36,12 @@ from waitress import serve
 
 # Create app context  and use OTEL to instrument
 
+## I Reccomend checking out splunk-otel python libs and find start_tracing()
+
+
 
 '''
-## I Reccomend checking out splunk-otel python libs and find start_tracing()
+
 start_tracing(service_name='digitaldrivethru')
 app = Flask(__name__)
 FlaskInstrumentor().instrument_app(app)
